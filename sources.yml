@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: raw
+    database: DE_PROJECT
+    schema: RAW
+    tables:
+      - name: customers
+      - name: orders

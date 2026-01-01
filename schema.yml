@@ -1,0 +1,15 @@
+version: 2
+
+models:
+  - name: dim_customers
+    columns:
+      - name: customer_id
+        tests:
+          - not_null
+          - unique
+
+  - name: fact_orders
+    columns:
+      - name: '"order_id"'
+        tests:
+          - not_null
